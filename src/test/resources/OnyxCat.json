@@ -1,0 +1,86 @@
+{
+  "animal": {
+    "id": 63028994,
+    "organization_id": "NC149",
+    "url": "https://www.petfinder.com/cat/onyx-63028994/nc/spruce-pine/mitchell-county-animal-rescue-nc149/?referrer_id=63b17ee3-a0cc-49f3-8a89-d1d24fa6926a",
+    "type": "Cat",
+    "species": "Cat",
+    "breeds": {
+      "primary": "Domestic Short Hair",
+      "secondary": null,
+      "mixed": false,
+      "unknown": false
+    },
+    "colors": {
+      "primary": null,
+      "secondary": null,
+      "tertiary": null
+    },
+    "age": "Adult",
+    "gender": "Male",
+    "size": "Medium",
+    "coat": "Short",
+    "attributes": {
+      "spayed_neutered": true,
+      "house_trained": true,
+      "declawed": false,
+      "special_needs": false,
+      "shots_current": true
+    },
+    "environment": {
+      "children": null,
+      "dogs": null,
+      "cats": true
+    },
+    "tags": [
+      "Friendly",
+      "Affectionate",
+      "Loves kisses"
+    ],
+    "name": "Onyx",
+    "description": "Meet Onyx. Onyx is 1 years old. He is super sweet and loves to make all the biscuits. He likes...",
+    "organization_animal_id": null,
+    "photos": [
+      {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/63028994/1/?bust=1681915653&width=100",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/63028994/1/?bust=1681915653&width=300",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/63028994/1/?bust=1681915653&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/63028994/1/?bust=1681915653"
+      }
+    ],
+    "primary_photo_cropped": {
+      "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/63028994/1/?bust=1681915653&width=300",
+      "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/63028994/1/?bust=1681915653&width=450",
+      "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/63028994/1/?bust=1681915653&width=600",
+      "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/63028994/1/?bust=1681915653"
+    },
+    "videos": [],
+    "status": "adoptable",
+    "status_changed_at": "2023-04-19T14:47:35+0000",
+    "published_at": "2023-04-19T14:47:34+0000",
+    "distance": null,
+    "contact": {
+      "email": "mcar.tamara@gmail.com",
+      "phone": "(828) 765-6952",
+      "address": {
+        "address1": "2492 Hwy 19 E",
+        "address2": null,
+        "city": "Spruce Pine",
+        "state": "NC",
+        "postcode": "28777",
+        "country": "US"
+      }
+    },
+    "_links": {
+      "self": {
+        "href": "/v2/animals/63028994"
+      },
+      "type": {
+        "href": "/v2/types/cat"
+      },
+      "organization": {
+        "href": "/v2/organizations/nc149"
+      }
+    }
+  }
+}
