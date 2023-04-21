@@ -1,5 +1,6 @@
 package PetfinderPages;
 
+import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 
@@ -13,6 +14,7 @@ public class AnimalDetailsPage {
 
     public Response sentGetRequestWithAnimalID(String token, String id) {
         response = given()
+                .filter(new AllureRestAssured())
                 .header("Authorization", "Bearer " + token)
                 .pathParam("id", id)
                 .log()

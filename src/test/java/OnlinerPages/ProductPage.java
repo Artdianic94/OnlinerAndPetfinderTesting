@@ -18,6 +18,7 @@ public class ProductPage {
     private static final By GO_TO_CART_BTN = By.xpath("//div[@class='product-recommended__control product-recommended__control_checkout']//a[@href]");
     private static final By CONTINUE_SHOP_BTN = By.xpath("//div[@class='product-recommended__control product-recommended__control_checkout']//preceding-sibling::a");
     private static final By NUMBER_ON_CART = By.xpath("//div[@class='auth-bar__counter']");
+    private static final By CLOSE_PRODUCT_BOX_BTN = By.xpath("//div[@class='product-recommended__sidebar-close']");
     private static final String ADD_TO_CART_BTN = "//div[contains(@class,'product-aside__offers-item ') and contains(., '%s')]//a[contains(., 'В корзину')]";
     public String minPriceAsText;
 
@@ -48,7 +49,7 @@ public class ProductPage {
     public void chooseFirstProductWithMinPrice() {
         Actions actions = new Actions(getWebDriver());
         actions.moveToElement(getProductWebElementWithMinPrice()).perform();
-        $(By.xpath(String.format(ADD_TO_CART_BTN, minPriceAsText))).shouldBe(Condition.visible).click();
+        $(By.xpath(String.format(ADD_TO_CART_BTN, minPriceAsText))).shouldBe(Condition.enabled).click();
     }
 
     public String getMessage() {
@@ -64,7 +65,7 @@ public class ProductPage {
     }
 
     public String getNumberOnCart() {
-        refresh();
+        $(CLOSE_PRODUCT_BOX_BTN).shouldBe(Condition.visible).click();
         return $(NUMBER_ON_CART).getText();
     }
 }

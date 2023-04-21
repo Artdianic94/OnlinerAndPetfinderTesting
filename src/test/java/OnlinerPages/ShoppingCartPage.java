@@ -16,8 +16,7 @@ public class ShoppingCartPage {
     private static final By EMPTY_CART_MESSAGE = By.xpath("//div[@class='cart-message__title cart-message__title_big']");
 
     public void goInCart() {
-        refresh();
-        $(CART_BTN).click();
+        $(CART_BTN).shouldBe(Condition.enabled).click();
     }
 
     public String getCartTitle() {
@@ -33,13 +32,13 @@ public class ShoppingCartPage {
         if ($(DELETE_PRODUCT).is(Condition.exist)) {
             for (int i = 0; i < $$(DELETE_PRODUCT).size(); i++) {
                 actions.moveToElement($(DELETE_PRODUCT)).perform();
-                $$(DELETE_PRODUCT).get(i).click();
+                $$(DELETE_PRODUCT).get(i).shouldBe(Condition.enabled).click();
             }
         }
     }
 
     public void clickOnCloseBoxBtn() {
-        $(CLOSE_BOX_WITH_PRODUCT).should(Condition.visible).click();
+        $(CLOSE_BOX_WITH_PRODUCT).should(Condition.enabled).click();
     }
 
     public String getEmptyCartMessage() {

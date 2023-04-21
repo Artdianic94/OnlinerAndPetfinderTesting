@@ -1,6 +1,7 @@
 package PetfinderPages;
 
 import Models.Animals;
+import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 
@@ -12,6 +13,7 @@ public class AnimalsWithTypeAndLocationPage {
 
     public Response sentGetRequestWithTypeAndLocation(String token, String type, String city) {
         response = given()
+                .filter(new AllureRestAssured())
                 .header("Authorization", "Bearer " + token)
                 .queryParam("type", type)
                 .queryParam("location", city)
