@@ -75,4 +75,13 @@ the animal.
   <img src="https://github.com/devicons/devicon/blob/master/icons/cucumber/cucumber-plain-wordmark.svg" title="Cucumber" alt="Cucumber" width="40" height="40"/>&nbsp;
   <img src="https://selenide.org/images/selenide-logo-big.png" title="Selenide" alt="Selenide" width="70" height="40"/>&nbsp;
   <img src="https://e7.pngegg.com/pngimages/640/776/png-clipart-testng-logo-software-testing-software-framework-computer-icons-automation-testing-angle-text.png" title="Testng" alt="Testng" width="70" height="40"/>&nbsp;
+  <img src="https://media.licdn.com/dms/image/C4D12AQEkxehOAz4jGA/article-cover_image-shrink_600_2000/0/1611865361884?e=2147483647&v=beta&t=JUTsqJYWhnNWHHvBCgNsap022H3SJkNqQoEVxycOT1o" title="Allure" alt="Allure" width="70" height="40"/>&nbsp;
 </div>
+
+## Allure report
+
+![Image1](https://github.com/Artdianic94/OnlinerAndPetfinderTesting/blob/master/src/test/allureScreenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-04-21%20%D0%B2%2017.05.35.png)
+
+![Image2](https://github.com/Artdianic94/OnlinerAndPetfinderTesting/blob/master/src/test/allureScreenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-04-21%20%D0%B2%2017.06.54.png)
+
+![Image3](https://github.com/Artdianic94/OnlinerAndPetfinderTesting/blob/master/src/test/allureScreenshots/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-04-21%20%D0%B2%2017.07.19.png)
